@@ -1,6 +1,7 @@
 # gal-skills
 
-Standalone skill collection for [GAL](https://github.com/zmysysz/gal). Skills are
+Standalone skill collection for [GAL](https://github.com/gal-agent/gal-release)
+— if you don't have the `gal` binary yet, grab a release there first. Skills are
 plain directories (`SKILL.md` plus optional `scripts/`, `resources/`) that GAL
 agents lazy-load via `load_skills`.
 
@@ -37,3 +38,8 @@ Read `skills/gal-skill-dev/SKILL.md` for the full authoring guide. Key rules:
 - A skill is a directory with `SKILL.md` (YAML frontmatter: `name`, `description`) and optional `scripts/`.
 - The `description` frontmatter is the load trigger — agents load the skill when a task matches it.
 - Scripts run with the GAL host process permissions; only ship trusted code.
+
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE), the same
+terms as [GAL](https://github.com/gal-agent/gal-release) itself.
