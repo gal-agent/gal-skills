@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only, redacted Docker observations for gal-docker-readonly."""
+"""Read-only, redacted Docker observations for gal-docker-ro."""
 from __future__ import annotations
 
 import json

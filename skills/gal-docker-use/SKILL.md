@@ -8,7 +8,7 @@ description: Local Docker dev control (trusted env). Load when user mentions or 
 `gal-docker-use` provides normal local Docker CLI control for a trusted,
 non-sensitive development environment. Do **not** install it on production,
 shared, or sensitive hosts, and do **not** install it together with
-`gal-docker-readonly`.
+`gal-docker-ro`.
 
 The script runs outside GAL safe mode because Docker Desktop named pipes and
 Docker Engine sockets are host resources. It accepts only JSON stdin and starts

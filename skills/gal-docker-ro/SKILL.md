@@ -1,11 +1,11 @@
 ---
-name: gal-docker-readonly
+name: gal-docker-ro
 description: Read-only Docker checks (sensitive/shared hosts). Load when user mentions or task matches docker, docker ps/info/logs/stats, 查看容器, 容器状态, 容器日志, 镜像列表, 网络, 数据卷, or read-only container inspection.
 ---
 
 # Read-only Docker Observation
 
-`gal-docker-readonly` provides only bounded, read-only Docker observations. Install it
+`gal-docker-ro` provides only bounded, read-only Docker observations. Install it
 on sensitive or shared hosts. Do **not** install it together with
 `gal-docker-use`, which intentionally permits normal Docker development control.
 
@@ -16,7 +16,7 @@ accessing named pipes or sockets directly.
 
 ## Tool
 
-Use `skill_gal-docker-readonly_docker`. Put the request in `input`; leave `args`
+Use `skill_gal-docker-ro_docker`. Put the request in `input`; leave `args`
 empty. The input must be one JSON object.
 
 | Action | JSON input |
