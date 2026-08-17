@@ -30,6 +30,8 @@ After installing, attach the skill to an agent's `skills:` list in `~/.gal/agent
 |-------|-------------|
 | `gal-skill-dev` | Authoring guide for GAL skills — directory layout, SKILL.md frontmatter, the description-as-trigger rule, scripts vs prompt-only, security model. |
 | `gal-k8s-safe` | Restricted Kubernetes safe-mode setup: read-only kubeconfig mounts, RBAC generation, protected namespace checks, guarded writes, 15-day backups. |
+| `gal-docker-readonly` | Read-only, redacted Docker observations for sensitive or shared environments. |
+| `gal-docker-use` | Local Docker CLI control for trusted, non-sensitive development environments. |
 
 ## Authoring
 
