@@ -33,6 +33,15 @@ After installing, attach the skill to an agent's `skills:` list in `~/.gal/agent
 | `gal-docker-readonly` | Read-only, redacted Docker observations for sensitive or shared environments. |
 | `gal-docker-use` | Local Docker CLI control for trusted, non-sensitive development environments. |
 
+## Portability notice
+
+Some skills in this repo are built to run under GAL's own security design -
+safe-mode sandboxing, per-agent tool allowlists, JSON-stdin script tools, and
+hidden credential directories. They rely on those guarantees and are **not
+universally portable**. If you reuse them with other agent frameworks, review
+each skill's scripts and assumptions first and provide equivalent guardrails
+yourself; don't assume the surrounding runtime enforces the same restrictions.
+
 ## Authoring
 
 Read `skills/gal-skill-dev/SKILL.md` for the full authoring guide. Key rules:
