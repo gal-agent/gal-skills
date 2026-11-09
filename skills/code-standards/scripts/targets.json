@@ -1,0 +1,44 @@
+{
+  "agents": {
+    "path": "AGENTS.md",
+    "mode": "block",
+    "front": "",
+    "detect": "always"
+  },
+  "claude": {
+    "path": "CLAUDE.md",
+    "mode": "block",
+    "front": "",
+    "detect": "CLAUDE.md, .claude"
+  },
+  "kiro": {
+    "path": ".kiro/steering/code-standards.md",
+    "mode": "file",
+    "front": "---\ninclusion: always\n---\n",
+    "detect": ".kiro"
+  },
+  "cursor": {
+    "path": ".cursor/rules/code-standards.mdc",
+    "mode": "file",
+    "front": "---\ndescription: Coding agent engineering standards\nglobs:\nalwaysApply: true\n---\n",
+    "detect": ".cursor"
+  },
+  "copilot": {
+    "path": ".github/copilot-instructions.md",
+    "mode": "block",
+    "front": "",
+    "detect": ".github"
+  },
+  "windsurf": {
+    "path": ".windsurf/rules/code-standards.md",
+    "mode": "file",
+    "front": "---\ntrigger: always_on\n---\n",
+    "detect": ".windsurf, .windsurfrules"
+  },
+  "cline": {
+    "path": ".clinerules",
+    "mode": "block",
+    "front": "",
+    "detect": ".clinerules"
+  }
+}

@@ -32,6 +32,7 @@ After installing, attach the skill to an agent's `skills:` list in `~/.gal/agent
 | `gal-k8s-safe` | Restricted Kubernetes safe-mode setup: read-only kubeconfig mounts, RBAC generation, protected namespace checks, guarded writes, 15-day backups. |
 | `gal-docker-ro` | Read-only, redacted Docker observations for sensitive or shared environments. |
 | `gal-docker-use` | Local Docker CLI control for trusted, non-sensitive development environments. |
+| `code-standards` | Install and verify the v1.3 coding-agent engineering standard inside AGENTS.md, CLAUDE.md, kiro, cursor, windsurf and copilot targets; idempotent, version-checked, upgradeable. |
 
 ## Portability notice
 
